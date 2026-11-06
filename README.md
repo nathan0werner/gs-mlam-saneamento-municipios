@@ -10,9 +10,8 @@ Análise estatística, em Python, de dados **reais e oficiais do IBGE** (Censo D
 
 | Nome completo | RM |
 |---|---|
-| [Nome completo do integrante 1] | RM000000 |
-| [Nome completo do integrante 2] | RM000000 |
-| [Nome completo do integrante 3] | RM000000 |
+| Gabriel Villas | RM571603 |
+| Nathan Werner | RM572925 |
 
 ---
 

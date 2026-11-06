@@ -27,9 +27,8 @@ R = json.loads((RAIZ / "reports" / "resultados.json").read_text(encoding="utf-8"
 
 # ---------------------------------------------------------------- integrantes
 INTEGRANTES = [
-    ("[Nome completo do integrante 1]", "RM 000000"),
-    ("[Nome completo do integrante 2]", "RM 000000"),
-    ("[Nome completo do integrante 3]", "RM 000000"),
+    ("Gabriel Villas", "RM 571603"),
+    ("Nathan Werner", "RM 572925"),
 ]
 
 # ---------------------------------------------------------------- fontes (DejaVu vem com o matplotlib)
