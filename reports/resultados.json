@@ -1,0 +1,270 @@
+{
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "municipios": 442,
+      "esgoto_rede": 7.5,
+      "agua_rede": 53.5,
+      "lixo_coletado": 66.4,
+      "urbana": 63.0,
+      "alfabetizacao": 87.7,
+      "pct_esgoto_adequado": 2.3
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "municipios": 466,
+      "esgoto_rede": 20.8,
+      "agua_rede": 73.6,
+      "lixo_coletado": 81.7,
+      "urbana": 76.3,
+      "alfabetizacao": 91.2,
+      "pct_esgoto_adequado": 16.3
+    },
+    {
+      "regiao": "Nordeste",
+      "municipios": 1776,
+      "esgoto_rede": 24.7,
+      "agua_rede": 67.7,
+      "lixo_coletado": 71.0,
+      "urbana": 61.1,
+      "alfabetizacao": 79.6,
+      "pct_esgoto_adequado": 18.4
+    },
+    {
+      "regiao": "Sul",
+      "municipios": 1186,
+      "esgoto_rede": 29.9,
+      "agua_rede": 74.3,
+      "lixo_coletado": 86.9,
+      "urbana": 67.0,
+      "alfabetizacao": 94.4,
+      "pct_esgoto_adequado": 28.5
+    },
+    {
+      "regiao": "Sudeste",
+      "municipios": 1668,
+      "esgoto_rede": 70.6,
+      "agua_rede": 79.1,
+      "lixo_coletado": 89.1,
+      "urbana": 78.9,
+      "alfabetizacao": 92.4,
+      "pct_esgoto_adequado": 80.9
+    }
+  ],
+  "n": 5538,
+  "media_esgoto": 37.9215348501264,
+  "mediana_esgoto": 32.614999999999995,
+  "pct_mun_esgoto_adequado": 37.90176959191044,
+  "mun_esgoto_abaixo_10": 33.531960996749724,
+  "normal": {
+    "variavel": "taxa_alfabetizacao",
+    "media": 88.23418382087397,
+    "mediana": 90.655,
+    "sigma": 7.54293709326376,
+    "p_a": 0.5,
+    "class_a": "Evento equiprovável (50%)",
+    "p_b": 0.3741286360908965,
+    "class_b": "Evento improvável (pouco provável)"
+  },
+  "teste_a": {
+    "n": 20,
+    "alfa": 0.06,
+    "cauda": "esquerda",
+    "h1": "μ < μ0",
+    "seed": 7,
+    "xbar": 78.55350000000001,
+    "mu0": 71.90235644637053,
+    "sigma": 19.33667920053029,
+    "erro_padrao": 4.323812915149202,
+    "z": 1.5382588664569845,
+    "z_critico": -1.5547735945968535,
+    "p_valor": 0.9380073335757371,
+    "rejeita_h0": false
+  },
+  "teste_b": {
+    "n": 25,
+    "alfa": 0.09,
+    "cauda": "direita",
+    "h1": "μ > μ0",
+    "seed": 7,
+    "xbar": 79.3392,
+    "mu0": 71.90235644637053,
+    "sigma": 19.33667920053029,
+    "erro_padrao": 3.8673358401060582,
+    "z": 1.9229888122220913,
+    "z_critico": 1.3407550336902165,
+    "p_valor": 0.027240727456784075,
+    "rejeita_h0": true
+  },
+  "biv": {
+    "cov": 257.2453603385264,
+    "r": 0.7395925203489826,
+    "p_r": 0.0
+  },
+  "simples": {
+    "b0": 36.22361336067899,
+    "b1": 0.6383221019854315,
+    "r2": 0.5469970961561603,
+    "r2_adj": 0.54691526759694,
+    "F": 6684.672214296408,
+    "pF": 0.0,
+    "previsoes": [
+      {
+        "pct_pop_urbana": 40,
+        "lixo_coletado_previsto": 61.76
+      },
+      {
+        "pct_pop_urbana": 60,
+        "lixo_coletado_previsto": 74.52
+      },
+      {
+        "pct_pop_urbana": 90,
+        "lixo_coletado_previsto": 93.67
+      }
+    ]
+  },
+  "corr_mult": {
+    "pct_esgoto_rede": {
+      "pct_esgoto_rede": 1.0,
+      "pct_pop_urbana": 0.604,
+      "taxa_alfabetizacao": 0.41,
+      "log_densidade": 0.428
+    },
+    "pct_pop_urbana": {
+      "pct_esgoto_rede": 0.604,
+      "pct_pop_urbana": 1.0,
+      "taxa_alfabetizacao": 0.462,
+      "log_densidade": 0.434
+    },
+    "taxa_alfabetizacao": {
+      "pct_esgoto_rede": 0.41,
+      "pct_pop_urbana": 0.462,
+      "taxa_alfabetizacao": 1.0,
+      "log_densidade": 0.198
+    },
+    "log_densidade": {
+      "pct_esgoto_rede": 0.428,
+      "pct_pop_urbana": 0.434,
+      "taxa_alfabetizacao": 0.198,
+      "log_densidade": 1.0
+    }
+  },
+  "multipla": {
+    "params": {
+      "const": -91.36190239676942,
+      "pct_pop_urbana": 0.7195012459870713,
+      "taxa_alfabetizacao": 0.7297463008831402,
+      "log_densidade": 10.73734173534943
+    },
+    "pvalues": {
+      "const": 3.0063884026182417e-108,
+      "pct_pop_urbana": 3.402700746706631e-241,
+      "taxa_alfabetizacao": 1.4771888845181274e-46,
+      "log_densidade": 1.2943365121804245e-70
+    },
+    "r2": 0.42040498951240624,
+    "r2_adj": 0.4200907891091784,
+    "F": 1338.0154359877556,
+    "pF": 0.0,
+    "eq": "Ŷ = -91.3619 + 0.7195·PopUrbana + 0.7297·Alfabetização + 10.7373·log10(Densidade)",
+    "vif": {
+      "pct_pop_urbana": 1.5046021250548123,
+      "taxa_alfabetizacao": 1.27172056311672,
+      "log_densidade": 1.2316102735395444
+    },
+    "previsoes": [
+      {
+        "index": "Município A (rural, baixa alfabetização)",
+        "pct_pop_urbana": 50,
+        "taxa_alfabetizacao": 80,
+        "log_densidade": 1.18,
+        "esgoto_previsto_%": 15.62
+      },
+      {
+        "index": "Município B (urbano, alfabetizado, pouco denso)",
+        "pct_pop_urbana": 85,
+        "taxa_alfabetizacao": 95,
+        "log_densidade": 1.18,
+        "esgoto_previsto_%": 51.75
+      },
+      {
+        "index": "Município C (urbano, alfabetizado, denso)",
+        "pct_pop_urbana": 85,
+        "taxa_alfabetizacao": 95,
+        "log_densidade": 2.48,
+        "esgoto_previsto_%": 65.72
+      }
+    ]
+  },
+  "logistica": {
+    "params": {
+      "const": -10.219375551310012,
+      "pct_pop_urbana": 0.06849596430098295,
+      "taxa_alfabetizacao": 0.09749660057496105,
+      "log_densidade": 0.5253542794198327,
+      "log_pib_per_capita": -1.0616014677409784
+    },
+    "pvalues": {
+      "const": 2.720897061044092e-51,
+      "pct_pop_urbana": 6.924005312480283e-104,
+      "taxa_alfabetizacao": 7.843558818321871e-28,
+      "log_densidade": 1.7924834250008425e-10,
+      "log_pib_per_capita": 2.5631947990103265e-08
+    },
+    "odds": {
+      "const": 3.645705551464428e-05,
+      "pct_pop_urbana": 1.0708963031271006,
+      "taxa_alfabetizacao": 1.1024076940046381,
+      "log_densidade": 1.6910578492597232,
+      "log_pib_per_capita": 0.34590141656649115
+    },
+    "eq": "logit(p) = -10.2194 + 0.0685·PopUrbana + 0.0975·Alfabetização + 0.5254·log10(Densidade) + -1.0616·log10(PIBpc)",
+    "pseudo_r2": 0.32071606094368943,
+    "cm": [
+      [
+        861,
+        171
+      ],
+      [
+        209,
+        421
+      ]
+    ],
+    "acuracia": 0.7713598074608905,
+    "sensibilidade": 0.6682539682539682,
+    "especificidade": 0.8343023255813954,
+    "precisao": 0.7111486486486487,
+    "baseline": 0.6209386281588447,
+    "n_treino": 3876,
+    "n_teste": 1662,
+    "perfis": [
+      {
+        "index": "Perfil 1: rural, baixa alfabetização e renda",
+        "pct_pop_urbana": 45,
+        "taxa_alfabetizacao": 78,
+        "log_densidade": 1.0792,
+        "log_pib_per_capita": 4.0792,
+        "prob_esgoto_adequado": 0.0357,
+        "classificacao": "0 - Inadequado"
+      },
+      {
+        "index": "Perfil 2: intermediário",
+        "pct_pop_urbana": 70,
+        "taxa_alfabetizacao": 90,
+        "log_densidade": 1.6021,
+        "log_pib_per_capita": 4.3979,
+        "prob_esgoto_adequado": 0.3829,
+        "classificacao": "0 - Inadequado"
+      },
+      {
+        "index": "Perfil 3: urbano, denso, alfabetizado e de renda alta",
+        "pct_pop_urbana": 92,
+        "taxa_alfabetizacao": 96,
+        "log_densidade": 2.699,
+        "log_pib_per_capita": 4.699,
+        "prob_esgoto_adequado": 0.8666,
+        "classificacao": "1 - Adequado"
+      }
+    ]
+  }
+}
